@@ -1,0 +1,71 @@
+.benefits_5_inner {
+    padding: 6.25rem 0;
+    @include flexBox(row, nowrap, space-between, center);
+    // gap: 5.31rem;
+}
+
+.benefits_5_inner_left {
+    width: 50%;
+    @include flexBox(row, nowrap, center, center);
+
+    >img {
+        height: 20.8125rem;
+    }
+}
+
+.benefits_5_inner_right {
+    width: 50%;
+    @include flexBox(column, nowrap, start, start);
+    gap: 2rem;
+}
+
+.benefits_5_inner_right_h2 {
+    font-size: 2rem;
+    width: 60%;
+    font-weight: 600;
+    color: map-get($colors , "dark-blue" );
+
+    .benefits_5_inner_right_h2_span {
+        color: map-get($colors , "primary" );
+        text-decoration: underline;
+    }
+}
+
+.benefits_5_inner_right_p {
+    color: map-get($colors , "muted" );
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.benefits_5_inner_right_positive_negativ {
+    width: 60%;
+    @include flexBox(column, nowrap, start, start);
+    gap: 0.7rem;
+
+    .positive-box , .negative-box {
+        width: 100%;
+        @include flexBox(row, nowrap, start, center);
+        gap: 1rem;
+
+        >.ion-icon-positive {
+            color: green;
+        }
+
+        >.ion-icon-negative {
+            color: red;
+        }
+    }
+}
+
+.benefits_5_inner_right_read_license {
+    font-family: map-get($fonts , "dm-sans-bold" );
+    color: map-get($colors , "primary" );
+    height: 3.375rem;
+    background-color: transparent;
+    @include flexBox(row, nowrap, space-between, center);
+    gap: 0.3rem;
+    border: 2px solid map-get($colors , "primary" );
+    padding: 0.9375rem 1.5625rem;
+
+}

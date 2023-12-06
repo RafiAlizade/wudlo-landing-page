@@ -493,6 +493,7 @@ ul {
   gap: 10rem;
 }
 .benefits_4_inner .benefits_4_inner_left {
+  padding-left: 3.6rem;
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -506,7 +507,7 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -551,4 +552,93 @@ ul {
 }
 .benefits_4_inner_left_links_box ._links_box_container > ion-icon {
   color: #193766;
+}
+
+.benefits_5_inner {
+  padding: 6.25rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits_5_inner_left {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.benefits_5_inner_left > img {
+  height: 20.8125rem;
+}
+
+.benefits_5_inner_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+}
+
+.benefits_5_inner_right_h2 {
+  font-size: 2rem;
+  width: 60%;
+  font-weight: 600;
+  color: #193766;
+}
+.benefits_5_inner_right_h2 .benefits_5_inner_right_h2_span {
+  color: #3B82F6;
+  text-decoration: underline;
+}
+
+.benefits_5_inner_right_p {
+  color: #697B98;
+  width: 60%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.benefits_5_inner_right_positive_negativ {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: start;
+  gap: 0.7rem;
+}
+.benefits_5_inner_right_positive_negativ .positive-box, .benefits_5_inner_right_positive_negativ .negative-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.benefits_5_inner_right_positive_negativ .positive-box > .ion-icon-positive, .benefits_5_inner_right_positive_negativ .negative-box > .ion-icon-positive {
+  color: green;
+}
+.benefits_5_inner_right_positive_negativ .positive-box > .ion-icon-negative, .benefits_5_inner_right_positive_negativ .negative-box > .ion-icon-negative {
+  color: red;
+}
+
+.benefits_5_inner_right_read_license {
+  font-family: DM Sans Bold;
+  color: #3B82F6;
+  height: 3.375rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.3rem;
+  border: 2px solid #3B82F6;
+  padding: 0.9375rem 1.5625rem;
 }/*# sourceMappingURL=style.css.map */

@@ -14,6 +14,7 @@
     gap: 10rem;
 
     .benefits_4_inner_left {
+        padding-left: 3.6rem;
         width: 60%;
         @include flexBox(column, nowrap, flex-start, start);
         gap: 2rem;
@@ -21,7 +22,7 @@
 
     .benefits_4_inner_right {
         width: 40%;
-        @include flexBox(row, nowrap, center, center);
+        @include flexBox(row, nowrap, flex-start, center);
     }
 }
 
