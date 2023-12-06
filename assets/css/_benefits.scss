@@ -1,0 +1,66 @@
+.benefits {
+    background: url("../images/Rectangle\ 621.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+}
+
+.benefits_inner {
+    padding: 6.25rem 0;
+    @include flexBox(row, nowrap, space-between, center);
+    gap: 2.75rem;
+}
+
+.benefits_inner_right {
+    width: 60%;
+    @include flexBox(row, nowrap, flex-end, center);
+}
+
+.benefits_inner_left {
+    width: 40%;
+    @include flexBox(column, nowrap, center, start);
+    gap: 1rem;
+}
+
+.benefits_inner_left_h5 {
+    width: 70%;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color: map-get($colors , "dark-blue" );
+
+    .benefits_inner_left_h5_span {
+        text-decoration: underline;
+    }
+}
+
+.benefits_inner_left_p {
+    color: map-get($colors , "muted" );
+}
+
+.benefits_inner_left_benefits_box {
+    @include flexBox(column, nowrap, flex-start, center);
+}
+
+._benefits_box {
+    @include flexBox(row, nowrap, flex-start, flex-start);
+    gap: 0.5rem;
+    vertical-align: bottom;
+}
+
+._benefits_box_square {
+    color: map-get($colors , "primary" );
+}
+
+._benefits_box_p {
+    font-size: 1rem;
+    font-family: map-get($fonts , "dm-sans" );
+    color: map-get($colors , "dark-blue" );
+
+    ._benefits_box_p_span {
+        color: map-get($colors , "primary" );
+    }
+}
+
+
+

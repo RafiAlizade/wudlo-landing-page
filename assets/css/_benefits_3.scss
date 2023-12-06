@@ -1,0 +1,52 @@
+.benefits_3 {
+    background-color: map-get($colors , "dark-blue" );
+}
+
+.benefits_3_inner {
+    padding: 6.25rem 0;
+}
+
+.benefits_3_inner {
+    @include flexBox(column, nowrap, flex-start, center);
+    gap: 1rem;
+
+    .benefits_3_inner_text_images {
+        @include flexBox(column, nowrap, flex-start, center);
+        gap: 3.75rem;
+    }
+}
+
+.benefits_3_inner_button_preview {
+    background-color: rgba(59, 130, 246, 0.10);
+    height: 2.6rem;
+    border-radius: 6.25rem;
+    width: 8%;
+    color: map-get($colors , "primary" );
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.62rem;
+    font-family: map-get($fonts , "dm-sans-bold" );
+}
+
+.benefits_3_inner_text_images_h5 {
+    text-align: center;
+    width: 70%;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    color: map-get($colors , "body-white" );
+
+    .benefits_3_inner_h5_span {
+        text-decoration: underline;
+    }
+}
+
+.benefits_3_inner_text_images_p {
+    text-align: center;
+    width: 68%;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    color: map-get($colors , "muted-light" );
+}

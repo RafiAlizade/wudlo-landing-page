@@ -1,0 +1,63 @@
+.benefits_2 {
+    background: url("../images/Rectangle\ 624.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position: center;
+}
+
+.benefits_2_inner {
+    padding: 6.25rem 0;
+    @include flexBox(row, nowrap, space-between, center);
+    gap: 1.9rem;
+}
+
+.benefits_2_inner_left {
+    @include flexBox(row, nowrap, center, center);
+    width: 50%;
+}
+
+.benefits_2_inner_right {
+    width: 50%;
+    @include flexBox(column, nowrap, center, start);
+    gap: 1rem;
+}
+
+.benefits_2_inner_right_h5 {
+    width: 70%;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    color: map-get($colors , "dark-blue" );
+
+    .benefits_2_inner_right_h5_span {
+        text-decoration: underline;
+    }
+}
+
+.benefits_2_inner_right_p {
+    color: map-get($colors , "muted" );
+}
+
+.benefits_2_inner_right_benefits_2_box {
+    @include flexBox(column, nowrap, flex-start, center);
+}
+
+._benefits_2_box {
+    @include flexBox(row, nowrap, flex-start, flex-start);
+    gap: 0.5rem;
+    vertical-align: bottom;
+}
+
+._benefits_2_box_square {
+    color: map-get($colors , "primary" );
+}
+
+._benefits_2_box_p {
+    font-size: 1rem;
+    font-family: map-get($fonts , "dm-sans" );
+    color: map-get($colors , "dark-blue" );
+
+    ._benefits_2_box_p_span {
+        color: map-get($colors , "primary" );
+    }
+}

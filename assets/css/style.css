@@ -1,0 +1,474 @@
+@font-face {
+  font-family: DM Sans;
+  src: url("../fonts/DMSans-Regular.ttf");
+}
+@font-face {
+  font-family: DM Sans Bold;
+  src: url("../fonts/DMSans-Bold.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+  font-size: 16px;
+  font-family: DM Sans;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.hero {
+  background-image: url("../images/Rectangle 3.svg");
+  background-repeat: no-repeat;
+  height: 54.3125rem;
+  background-position-x: right;
+}
+
+.hero_inner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: space-between;
+  gap: 4.34rem;
+}
+
+.hero_inner_sub_nav {
+  height: auto;
+  padding-top: 4rem;
+}
+
+.hero_inner_sub_nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_inner_sub_nav_links_Logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8rem;
+}
+.hero_inner_sub_nav_links_Logo ._sub_nav_ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+._sub_nav_ul a {
+  color: rgba(0, 21, 51, 0.6);
+  text-decoration: none;
+}
+
+._sub_nav_a_button {
+  font-family: DM Sans Bold;
+  padding-top: 0.55rem;
+  text-align: center;
+  margin-right: 3rem;
+  background-color: #FFF;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #3B82F6;
+  border-radius: 0.37rem;
+  height: 2.6rem;
+  width: 10%;
+}
+
+.hero_inner_main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.25rem;
+  padding-bottom: 6.62rem;
+}
+
+.hero_inner_main_right {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero_inner_main_left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+.hero_inner_main_left .hero_inner_main_left_h2 {
+  font-size: 5rem;
+  color: #193766;
+}
+.hero_inner_main_left .hero_inner_main_left_h2 .hero_inner_main_left_h2_span {
+  text-decoration: underline;
+  font-family: DM Sans Bold;
+}
+.hero_inner_main_left .hero_inner_main_left_p {
+  color: #697B98;
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+
+.hero_inner_main_left_buttons_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.hero_inner_main_left_buttons_container .hero_inner_main_left_button_container_download {
+  font-family: DM Sans Bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #3B82F6;
+  text-align: center;
+  text-decoration: none;
+  width: 30%;
+  height: 3rem;
+  color: #FFF;
+  border-radius: 0.375rem;
+}
+.hero_inner_main_left_buttons_container .hero_inner_main_left_buttons_container_see_action {
+  font-family: DM Sans Bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #C6DBFF;
+  text-align: center;
+  text-decoration: none;
+  width: 30%;
+  height: 3rem;
+  color: #3B82F6;
+  border-radius: 0.375rem;
+}
+
+.advantages_for_users {
+  width: 100%;
+  margin-top: 1.62rem;
+  background: url("../images/Rectangle 620.svg");
+  height: 49rem;
+  background-repeat: no-repeat;
+}
+
+.advantages_for_users_inner {
+  width: auto;
+  padding: 6.25rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5.5rem;
+}
+
+.advantages_for_users_inner_h2 {
+  color: #193766;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  width: 33%;
+  text-align: center;
+}
+
+.advantages_for_users_bottom_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+._bottom_container_card {
+  border-radius: 0.625rem;
+  height: 22.75rem;
+  width: 25%;
+  padding: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+._bottom_container_card_logo {
+  height: 4.375rem;
+  width: 4.375rem;
+  background-color: #193766;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+._bottom_container_card_h5 {
+  font-size: 1.5rem;
+  color: #193766;
+  font-family: DM Sans Bold;
+}
+
+._bottom_container_card_p {
+  font-weight: 400;
+  font-family: DM Sans;
+  color: #697B98;
+  width: 65%;
+}
+
+.benefits {
+  background: url("../images/Rectangle 621.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+}
+
+.benefits_inner {
+  padding: 6.25rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.75rem;
+}
+
+.benefits_inner_right {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.benefits_inner_left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+
+.benefits_inner_left_h5 {
+  width: 70%;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: #193766;
+}
+.benefits_inner_left_h5 .benefits_inner_left_h5_span {
+  text-decoration: underline;
+}
+
+.benefits_inner_left_p {
+  color: #697B98;
+}
+
+.benefits_inner_left_benefits_box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+._benefits_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+  vertical-align: bottom;
+}
+
+._benefits_box_square {
+  color: #3B82F6;
+}
+
+._benefits_box_p {
+  font-size: 1rem;
+  font-family: DM Sans;
+  color: #193766;
+}
+._benefits_box_p ._benefits_box_p_span {
+  color: #3B82F6;
+}
+
+.benefits_2 {
+  background: url("../images/Rectangle 624.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position: center;
+}
+
+.benefits_2_inner {
+  padding: 6.25rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.9rem;
+}
+
+.benefits_2_inner_left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.benefits_2_inner_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+}
+
+.benefits_2_inner_right_h5 {
+  width: 70%;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  color: #193766;
+}
+.benefits_2_inner_right_h5 .benefits_2_inner_right_h5_span {
+  text-decoration: underline;
+}
+
+.benefits_2_inner_right_p {
+  color: #697B98;
+}
+
+.benefits_2_inner_right_benefits_2_box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+._benefits_2_box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+  vertical-align: bottom;
+}
+
+._benefits_2_box_square {
+  color: #3B82F6;
+}
+
+._benefits_2_box_p {
+  font-size: 1rem;
+  font-family: DM Sans;
+  color: #193766;
+}
+._benefits_2_box_p ._benefits_2_box_p_span {
+  color: #3B82F6;
+}
+
+.benefits_3 {
+  background-color: #193766;
+}
+
+.benefits_3_inner {
+  padding: 6.25rem 0;
+}
+
+.benefits_3_inner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.benefits_3_inner .benefits_3_inner_text_images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3.75rem;
+}
+
+.benefits_3_inner_button_preview {
+  background-color: rgba(59, 130, 246, 0.1);
+  height: 2.6rem;
+  border-radius: 6.25rem;
+  width: 8%;
+  color: #3B82F6;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 0.62rem;
+  font-family: DM Sans Bold;
+}
+
+.benefits_3_inner_text_images_h5 {
+  text-align: center;
+  width: 70%;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #FFF;
+}
+.benefits_3_inner_text_images_h5 .benefits_3_inner_h5_span {
+  text-decoration: underline;
+}
+
+.benefits_3_inner_text_images_p {
+  text-align: center;
+  width: 68%;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}/*# sourceMappingURL=style.css.map */
