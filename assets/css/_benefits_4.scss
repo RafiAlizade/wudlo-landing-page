@@ -1,0 +1,66 @@
+.benefits_4 {
+    background: url("../images/Rectangle\ 631.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.benefits_4_inner {
+    padding: 6.25rem 0;
+}
+
+.benefits_4_inner {
+    @include flexBox(row, nowrap, space-between, center);
+    gap: 10rem;
+
+    .benefits_4_inner_left {
+        width: 60%;
+        @include flexBox(column, nowrap, flex-start, start);
+        gap: 2rem;
+    }
+
+    .benefits_4_inner_right {
+        width: 40%;
+        @include flexBox(row, nowrap, center, center);
+    }
+}
+
+.benefits_4_inner_left_h5 {
+    width: 60%;
+    font-size: 2rem;
+    color: map-get($colors , "dark-blue" );
+    font-weight: 600;
+    line-height: 2.75rem; /* 137.5% */
+
+
+    .benefits_4_inner_left_h5_span {
+        text-decoration: underline;
+    }
+}
+
+.benefits_4_inner_left_p {
+    width: 60%;
+    font-size: 1rem;
+    color: map-get($colors , "muted" );
+}
+
+.benefits_4_inner_left_links_box {
+    width: 60%;
+    @include flexBox(column, nowrap, flex-start, start);
+
+    ._links_box_container {
+        width: 100%;
+        height: 5rem;
+        padding: 1.5625rem 2.1875rem;
+        @include flexBox(row, nowrap, space-between, center);
+
+        ._links_box_container_span {
+            color: map-get($colors , "dark-blue" );
+            font-family: map-get($fonts , "dm-sans-bold" );
+        }
+
+        >ion-icon {
+            color: map-get($colors , "dark-blue" ); 
+        }
+    }
+}

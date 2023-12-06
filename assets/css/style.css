@@ -471,4 +471,84 @@ ul {
   font-style: normal;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
+}
+
+.benefits_4 {
+  background: url("../images/Rectangle 631.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.benefits_4_inner {
+  padding: 6.25rem 0;
+}
+
+.benefits_4_inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
+}
+.benefits_4_inner .benefits_4_inner_left {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 2rem;
+}
+.benefits_4_inner .benefits_4_inner_right {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits_4_inner_left_h5 {
+  width: 60%;
+  font-size: 2rem;
+  color: #193766;
+  font-weight: 600;
+  line-height: 2.75rem; /* 137.5% */
+}
+.benefits_4_inner_left_h5 .benefits_4_inner_left_h5_span {
+  text-decoration: underline;
+}
+
+.benefits_4_inner_left_p {
+  width: 60%;
+  font-size: 1rem;
+  color: #697B98;
+}
+
+.benefits_4_inner_left_links_box {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: start;
+}
+.benefits_4_inner_left_links_box ._links_box_container {
+  width: 100%;
+  height: 5rem;
+  padding: 1.5625rem 2.1875rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.benefits_4_inner_left_links_box ._links_box_container ._links_box_container_span {
+  color: #193766;
+  font-family: DM Sans Bold;
+}
+.benefits_4_inner_left_links_box ._links_box_container > ion-icon {
+  color: #193766;
 }/*# sourceMappingURL=style.css.map */
