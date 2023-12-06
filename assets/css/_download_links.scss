@@ -1,0 +1,53 @@
+.download_links_inner {
+    padding: 6.25rem 0;
+    @include flexBox(column, nowrap, space-between, center);
+    gap: 2.5rem;
+}
+
+.download_links_inner_downloand_button {
+    background: rgba(59, 130, 246, 0.10);
+    padding: 0.625rem 1.25rem;
+    border-radius: 6.25rem;
+    text-decoration: none;
+    color: map-get($colors , "primary" );
+    font-family: map-get($fonts , "dm-sans-bold" );
+}
+
+.download_links_inner_h5 {
+    font-size: 2rem;
+    color: map-get($colors , "dark-blue" );
+
+    .download_links_inner_h5_span {
+        color: map-get($colors , "primary" );
+        text-decoration: underline;
+    }
+}
+
+.download_links_inner_p {
+    color: map-get($colors , "muted" );
+    width: 35%;
+    text-align: center;
+}
+
+.download_links_inner_buttons {
+    @include flexBox(row, nowrap, space-between, center);
+    gap: 1rem;
+
+    .download_links_inner_buttons_download_btn {
+        border-radius: 0.375rem;
+        background-color: map-get($colors , "primary" );
+        padding: 1.25rem 1.875rem;
+        @include flexBox(row, nowrap, space-between, center);
+        gap: .5rem;
+        color: map-get($colors , "body-white" );
+    }
+
+    .download_links_inner_buttons_saythanks_btn {
+        border-radius: 0.375rem;
+        background-color: map-get($colors , "twitter-blue" );
+        padding: 1.25rem 1.875rem;
+        @include flexBox(row, nowrap, space-between, center);
+        gap: .5rem;
+        color: map-get($colors , "body-white" );
+    }
+}

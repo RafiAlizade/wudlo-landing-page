@@ -1,0 +1,350 @@
+@media (max-width: 576px) {
+
+    .hero {
+        background: transparent;
+        width: auto;
+        height: auto;
+    }
+
+    ._sub_nav_a_button {
+        display: flex;
+    }
+
+    .hero_inner_sub_nav_links_Logo {
+        width: auto;
+        height: auto;
+        justify-content: center;
+    }
+
+    .hero_inner {
+        width: auto;
+        height: auto;
+    }
+
+    .hero_inner_sub_nav {
+        width: auto;
+        height: auto;
+    }
+
+    .hero_inner_sub_nav_links_Logo ._sub_nav_ul {
+        display: none;
+    }
+
+    .hero_inner_main {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .hero_inner_main_left .hero_inner_main_left_h2 {
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .hero_inner_main_left .hero_inner_main_left_p {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .hero_inner_main_left_buttons_container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .hero_inner_main_left_buttons_container .hero_inner_main_left_button_container_download , .hero_inner_main_left_buttons_container .hero_inner_main_left_buttons_container_see_action {
+        width: 70%;
+    }
+
+    .hero_inner_main_left_button_container_download {
+        width: auto;
+    }
+
+    .benefits_3_inner .benefits_3_inner_text_images {
+        width: auto;
+        height: auto;
+    }
+
+    .play-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .benefits_4_inner {
+        flex-direction: column;
+    }
+    
+    .advantages_for_users_bottom_container {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .benefits_3_inner {
+        width: auto;
+        height: auto;
+    }
+
+    .benefits_4_inner {
+        width: auto;
+        height: auto;
+    }
+    
+    .benefits_4_inner_right {
+        width: auto;
+        height: auto;
+    }
+
+    .benefits_2 {
+        width: auto;
+        height: auto;
+    }
+
+    .benefits_2_inner {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .benefits_2_inner_right {
+        width: auto;
+        height: auto;
+    }
+
+    .benefits_2_inner_right_h5 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    ._benefits_2_box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .benefits_2_inner_right_p {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .benefits_2_inner_left {
+        width: auto;
+        height: auto;
+
+        > img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+
+    .benefits_3 {
+        width: auto;
+        height: auto;
+    }
+
+    .hero_inner_main_right {
+        width: auto;
+        height: auto;
+
+        > img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .hero_inner_main_left {
+        width: auto;
+        height: auto;
+    }
+
+    .advantages_for_users {
+        width: auto;
+        height: auto;
+    }
+
+    .advantages_for_users_inner {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages_for_users_inner_h2 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    ._bottom_container_card {
+        text-align: center;
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .benefits_inner {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefits_inner_left {
+        width: auto;
+        height: auto;
+    }
+
+    .benefits_inner_left_h5 {
+        text-align: center;
+        width: auto;
+        height: auto;
+    }
+
+    .benefits_inner_left_p {
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .benefits_inner_left_benefits_box {
+        width: auto;
+        height: auto;
+    }
+
+    ._benefits_box {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .benefits_inner_right {
+        width: auto;
+        height: auto;
+
+        > img {
+            width: 90%;
+            height: 90%;
+        }
+    }
+
+    .benefits_3_inner_button_preview {
+        width: 70%;
+    }
+
+    .benefits_3_inner_text_images_h5 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .benefits_4_inner .benefits_4_inner_left {
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .benefits_4_inner_left_h5 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .benefits_4_inner_left_p {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .benefits_4_inner_left_links_box {
+        width: 100%;
+        height: auto;
+    }
+
+    .benefits_5_inner {
+        width: auto;
+        height: auto;
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+
+    .benefits_5_inner_right {
+        width: auto;
+        height: auto;
+        align-items: center;
+    }
+
+    .benefits_5_inner_right_h2 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .benefits_5_inner_right_p {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .benefits_5_inner_right_positive_negativ {
+        width: 100%;
+        height: auto;
+        padding-left: .4rem;
+    }
+
+    .benefits_5_inner_left {
+        width: auto;
+        height: auto;
+
+        >img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .download_links_inner {
+        width: auto;
+        height: auto;
+    }
+
+    .download_links_inner_h5 {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .download_links_inner_p {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .download_links_inner_buttons {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main_footer_inner {
+        width: auto;
+        height: auto;
+    }
+
+    .main_footer_inner_top {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .main_footer_inner_bottom {
+        width: auto;
+        height: auto;
+        margin: auto auto;
+    }
+}

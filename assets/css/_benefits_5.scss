@@ -1,3 +1,10 @@
+.benefits_5 {
+    background: url("../images/Rectangle\ 634.svg");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+}
+
 .benefits_5_inner {
     padding: 6.25rem 0;
     @include flexBox(row, nowrap, space-between, center);

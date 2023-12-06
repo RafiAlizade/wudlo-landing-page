@@ -1,0 +1,62 @@
+.main_footer {
+    background-color: map-get($colors , "dark-blue" );
+}
+
+.h-rule {
+    background: rgba(255, 255, 255, 0.05);
+    height: 0.0625rem;
+    width: 100%;
+}
+
+.main_footer_inner {
+    padding: 8.50rem 0;
+    @include flexBox(column, nowrap, flex-start, start);
+    gap: 3rem;
+}
+
+.main_footer_inner_top {
+    @include flexBox(row, nowrap, space-between, start);
+}
+
+.main_footer_inner_top_left {
+    gap: 1rem;
+    @include flexBox(column, nowrap, start, start);
+    width: 38%;
+    .main_footer_inner_top_left_h2 {
+        color: map-get($colors , "body-white" );
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    .main_footer_inner_top_left_p {
+        color: map-get($colors , "muted-light" );
+    }
+}
+
+.main_footer_inner_top_left_2_description , .main_footer_inner_top_right_2_description , .main_footer_inner_top_right_description {
+    color: map-get($colors , "footer-desc-color" );
+    font-size: 0.875rem;
+    font-family: map-get($fonts , "dm-sans-bold" );
+}
+
+.main_footer_inner_top_left_2 , .main_footer_inner_top_right_2 , .main_footer_inner_top_right {
+    @include flexBox(column, nowrap, start, start);
+    gap: 1.25rem;
+
+    > div ul {
+        @include flexBox(column, nowrap, start, start);
+        gap: 0.5rem;
+
+        > li a {
+            text-decoration: none;
+            color: map-get($colors , "muted-light" );
+            font-size: 1rem;
+        }
+    }
+}
+
+.main_footer_inner_bottom_copyright {
+    color: map-get($colors , "footer-desc-color" );
+    font-size: 0.875rem;
+    font-family: map-get($fonts , "dm-sans-bold" );
+}

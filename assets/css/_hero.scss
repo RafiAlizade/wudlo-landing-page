@@ -6,7 +6,7 @@
 }
 
 .hero_inner {
-    @include flexBox(column, wrap, flex-start, space-between);
+    @include flexBox(column, wrap, flex-start, stretch);
     gap: 4.34rem;
 }
 
